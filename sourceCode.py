@@ -64,7 +64,9 @@ async def numberpick(ctx):
 async def react(ctx,*, question):
   emojis = ['❤️', '👍', '🐸']
   await ctx.send(random.choice(emojis))
-
-
+    
+@client.command()
+async def source(ctx):
+  await ctx.send("Here is my source code! https://github.com/stiggyy/hopscotchBot")
 
 client.run('token') 
