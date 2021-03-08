@@ -1,0 +1,2 @@
+# hopscotchBot
+hopscotch bot code. 
