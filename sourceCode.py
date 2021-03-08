@@ -12,7 +12,7 @@ from discord.ext import commands
 #client def
 client = discord.Client()
 #command call
-client = commands.Bot(command_prefix='.')
+client = commands.Bot(command_prefix='.', help_command=None)
 
 #events when/if bot connects/disconnects
 @client.event
@@ -47,7 +47,7 @@ async def realwomen(ctx):
 
 @client.command(aliases = ['8ball', '8b', 'ask'])
 async def eightball(ctx, *, queston):
-    responses = ["yes", "no", "maybe", "of course not, what'd you expect?", "I Do Not Know.", "no <3", "ribbit ribbit", "The answer is unclear."]
+    responses = ["yes", "absolutely", "affirmative" , "no", "maybe", "of course not, what'd you expect?", "I Do Not Know.", "no <3", "ribbit ribbit", "The answer is unclear."]
     await ctx.send(random.choice(responses))
 
 @client.command(aliases = ['cf'])
@@ -68,5 +68,9 @@ async def react(ctx,*, question):
 @client.command()
 async def source(ctx):
   await ctx.send("Here is my source code! https://github.com/stiggyy/hopscotchBot")
+
+@client.command()
+async def help(ctx):
+  await ctx.send("https://github.com/stiggyy/hopscotchBot/blob/main/help-commands.md")
 
 client.run('token') 
