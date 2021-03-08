@@ -9,6 +9,7 @@ These files include:
 - Most recent source code
 - A link to discord.py's API
 - Hopscotch's invite link
+- A help/commands page
 
 I will update this periodically.
 
