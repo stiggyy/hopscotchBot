@@ -7,7 +7,7 @@ These files include:
 
 - A readme (what youre viewing right now)
 - Hopscotch's invite link
-- Most updated source code
+- Most recent source code
 - A link to discord.py's API
 
 I will update this periodically.
