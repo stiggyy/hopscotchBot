@@ -71,6 +71,6 @@ async def source(ctx):
 
 @client.command()
 async def help(ctx):
-  await ctx.send("https://github.com/stiggyy/hopscotchBot/blob/main/help-commands.md")
+  await ctx.send("https://github.com/stiggyy/hopscotchBot/blob/main/about/help-commands.md")
 
 client.run('token') 
