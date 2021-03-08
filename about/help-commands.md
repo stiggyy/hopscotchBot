@@ -1,3 +1,8 @@
+# About Hopscotch
+Hopscotch is a Discord-Python bot that is completely open source! This file includes all of Hopscotch's commands.
+
+
+
 # Hopscotch Commands
 - Coinflip/cf: Flips a coin (and returns either "Heads" or "Tails")
 - Eightball/8ball/8b/ask: Returns an answer to a yes or no question
