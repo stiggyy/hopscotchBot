@@ -15,3 +15,4 @@ Hopscotch is a Discord-Python bot that is completely open source! This file incl
 - React: Reacts to the given message
 - Realwomen: :)
 - Source: Sourcecode to Hopscotch
+- Dm: Hopscotch sends a dm to the user who reqested the command.
